@@ -1,0 +1,206 @@
+.navbar {
+    z-index: 2;
+}
+
+.navbar-collapse {
+    background-color: white;
+    padding: 24px;
+}
+
+.navbar-light{
+    height: 120px;
+    width: 90%;
+    margin: auto;
+}
+
+.active>.nav-link {
+    color: rgb(252, 66, 66) !important;
+}
+
+.navbar-brand {
+    margin-right: 7rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.carousel  {
+    height: calc(100vh - 120px);
+    overflow: hidden;
+}
+
+.carousel h2 {
+    font-size: 64px;
+    font-weight: 200;
+}
+
+.carousel-caption{
+    top: 25vh;
+    bottom: 0;
+}
+
+.carousel-caption button{
+    background-color: transparent;
+    border: 2 solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    transition: all 200ms ease-in-out;
+}
+
+.carousel-caption button:hover {
+    color: rgb(252, 66, 66);
+    background-color: white;
+}
+#car-1 {
+    background-image: url("https://images.unsplash.com/photo-1499649665965-2cc11230dfc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item {
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+.carousel-control-next {
+    width: 50px;
+    height: 20%;
+    margin: auto;
+    background-color: rgb(252, 66, 66)  ;
+}
+
+.carousel-control-prev {
+    width: 50px;
+    height: 20%;
+    margin: auto;
+    background-color: rgb(252, 66, 66)  ;
+}
+
+.features {
+    box-sizing: border-box;
+    padding: 40px 0;
+    background-color: rgb(252, 66, 66)  ;
+    color: white;
+}
+
+.circle-border{
+    border: 4px solid white;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%; 
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.centered   {
+    width: 85%;
+    margin: auto;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-item i{
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+}
+
+.post-header {
+    margin-top: 40px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body{
+    padding: 1.1rem 0;
+}
+
+.card-body h6 {
+    font-size: 12px;
+    margin-bottom: 1.25rem !important;
+}
+.red-highlight {
+    color: rgb(252, 66, 66)
+}
+
+footer {
+    border-top: 5px solid rgb(252, 66, 66);
+    color: rgba(255, 255, 255, 0.767);
+    margin-top: 32px;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+footer p {
+    margin-bottom: 4px;
+}
+
+footer hr {
+    margin-top: 0px;
+    border-top: 1px dashed rgba(255,255,255,.2);
+}
+.footer-1 {
+    padding: 40px 0;
+    background-color: rgb(68, 68, 68);
+    
+}
+
+.footer-2 {
+    background-color: rgb(53, 53, 53);
+
+}
+
+.footer-2 p{
+    width: 85%;
+    
+    padding: 1rem 16px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:960px) {
+
+}
+
+@media(max-width:768px) {
+    .jumbotron{
+        background-color: aquamarine;
+    }
+}
+
+@media(max-width:435px) {
+    .jumbotron {
+        background-color: brown;
+    }
+
+    .none p, .none #header {
+        display: none;
+    }
+}
+
+@media(max-width:320px) {
+    .jumbotron {
+        display: none;
+    }
+}
